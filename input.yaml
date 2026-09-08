@@ -1,0 +1,59 @@
+key: value
+hello: 12
+hello2: 13
+hello22: 23
+123: 1234
+
+array:
+    - hello
+    - 123
+    - sid
+  
+json array: [123, 'test', '345']
+
+null : null
+boolean: true
+numbers: 120
+also null: ~
+
+object (maps):
+  key: value
+  another: another
+  nested object:
+    nested_object: nested_object1
+    nested_object2: nested_object2
+
+sequence: 
+  - iten
+  - item2
+  - 120
+  - key: value
+    another key: another value
+
+literal block: |
+  fist line  
+
+
+  
+  second line
+
+
+
+
+folded block: >
+  first line      
+  second line
+
+
+
+
+literal1 blocks: |-
+  fist line
+  second line
+
+
+
+
+folded1 blocks: >-
+  first line
+  second line
